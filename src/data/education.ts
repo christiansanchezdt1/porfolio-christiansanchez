@@ -1,8 +1,4 @@
 import {
-  BookOpen,
-  Brush,
-  Code,
-  PuzzleIcon,
   GraduationCap,
   School,
 } from "lucide-react";
