@@ -139,10 +139,12 @@ export const experiences: WorkExperience[] = [
       },
     ],
     technologies: [
-      { name: "Logistics", color: "#0078D7" },
-      { name: "Safety", color: "#FF9800" },
-      { name: "Teamwork", color: "#4CAF50" },
-      { name: "Hazmat", color: "#F44336" },
+      { name: ".NET", color: "#61DAFB" },
+      { name: "SQL SERVER", color: "#339933" },
+      { name: "PHP", color: "#0078D7" },
+      { name: "MySQL", color: "#FF9800" },
+      { name: "jQuery", color: "#4CAF50" },
+      { name: "HTML5", color: "#F44336" },
     ],
   },
 ];

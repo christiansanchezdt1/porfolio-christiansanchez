@@ -37,31 +37,7 @@ export function NewsletterForm() {
   return (
     <div className="w-full max-w-md">
       <h3 className="text-base font-medium mb-2">Subscribe to my newsletter</h3>
-      <p className="text-sm text-muted-foreground mb-4">
-        Get updates on my latest projects and articles.
-      </p>
-
-      <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-2">
-        <div className="flex-grow">
-          <Input
-            type="email"
-            placeholder="Your email address"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            disabled={status === "loading" || status === "success"}
-            className="w-full"
-            aria-label="Email address"
-          />
-        </div>
-        <Button
-          type="submit"
-          disabled={status === "loading" || status === "success"}
-          className="whitespace-nowrap"
-        >
-          {status === "loading" ? "Subscribing..." : "Subscribe"}
-        </Button>
-      </form>
-
+      
       {status === "success" && (
         <div className="flex items-center gap-2 mt-2 text-sm text-green-500">
           <Check className="h-4 w-4" />
