@@ -4,7 +4,7 @@
 <br>
 <h3 align="center">My Portfolio</h3>
 <div align="center">                                       
-<a href="#" target="_blank"><img src="portfolio-2024.png" width="400" alt=""></a>
+<a href="#" target="_blank"><img src="" width="400" alt=""></a>
 <br>
 <p>
 <a href="#" target="_blank">
