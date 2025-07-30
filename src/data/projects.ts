@@ -21,7 +21,6 @@ export const projects: Project[] = [
     ],
     liveLink: "https://dev-avenu.startuniversity.dev/",
     codeLink: "#",
-    featured: true,
     createdAt: "2021-05-02",
   },
   {
@@ -41,7 +40,6 @@ export const projects: Project[] = [
     ],
     liveLink: "https://es.profesoresavenu.com/",
     codeLink: "#",
-    featured: true,
     createdAt: "2024-09-15",
   },
   {
