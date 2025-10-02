@@ -2,15 +2,16 @@ import type { Skill } from "@/types/skills";
 
 export const skills: Skill[] = [
   // Frontend
+  { name: "Angular", level: "Expert", category: "Frontend", color: "#dd0606ff" },
+  { name: "React", level: "Intermediate", category: "Frontend", color: "#0ba506ff" },
+  { name: "TypeScript", level: "Intermediate", category: "Frontend",color: "#3178C6"},
   { name: "JavaScript", level: "Expert", category: "Frontend",color: "#F7DF1E",},
   { name: "Jquery", level: "Expert", category: "Frontend",color: "#764ABC",},
-  { name: "HTML", level: "Expert", category: "Frontend", color: "#E34F26" },
+  { name: "HTML", level: "Expert", category: "Frontend", color: "#3110ebff" },
   { name: "CSS", level: "Expert", category: "Frontend", color: "#1572B6" },
-  { name: "Razor.", level: "Intermediate", category: "Frontend", color: "#1572B6" },
+  { name: "Razor", level: "Intermediate", category: "Frontend", color: "#1572B6" },
   { name: "BLazor", level: "Expert", category: "Frontend", color: "#1572B6" },
-  { name: "React", level: "Intermediate", category: "Frontend", color: "#61DAFB" },
-  { name: "TypeScript", level: "Intermediate", category: "Frontend",color: "#3178C6"},
-  { name: "Vue", level: "Intermediate", category: "Frontend", color: "#4FC08D" },
+  { name: "Vue", level: "Expert", category: "Frontend", color: "#4FC08D" },
   { name: "Next.js", level: "Intermediate", category: "Frontend", color: "#000000" },
 
   // Backend

@@ -2,6 +2,50 @@ import type { WorkExperience } from "@/types/experience";
 import { v4 as uuidv4 } from "uuid";
 
 export const experiences: WorkExperience[] = [
+    {
+    id: uuidv4(),
+    title: "Full-Stack Developer",
+    company: "SWS S.A.S.",
+    location: "Remote",
+    period: "Jun 2025",
+    startDate: "2025-06-16",
+    responsibilities: [
+      {
+        id: uuidv4(),
+        text: "Develop and deploy modern web applications using .NET Core",
+      },
+      {
+        id: uuidv4(),
+        text: "Create RESTful APIs and integrate third-party services to enhance application functionality.",
+      },
+      {
+        id: uuidv4(),
+        text: "Entity framework model for connecting to the database, Database in entity framework using linq.",
+      },
+      {
+        id: uuidv4(),
+        text: "For the web system, Angular was used on the frontend.",
+      },
+      {
+        id: uuidv4(),
+        text: "For the development of the mobile app in React with mongoDb.",
+      },
+      {
+        id: uuidv4(),
+        text: "Maintain and update existing websites, implementing new features and fixing bugs as needed.",
+      },
+    ],
+    technologies: [
+      { name: ".NET CORE", color: "#61DAFB" },
+      { name: "API .net", color: "#000000" },
+      { name: "Angular", color: "#e01010ff" },
+      { name: "React", color: "#06B6D4" },
+      { name: "AWS", color: "#339933" },
+      { name: "SQL", color: "#cc4f15ff" },
+      { name: "MongoBd", color: "#cc4f15ff" },
+      { name: "Git", color: "#e9f813ff" },
+    ],
+  },
   {
     id: uuidv4(),
     title: "Full-Stack Developer",

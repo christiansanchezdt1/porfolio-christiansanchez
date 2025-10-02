@@ -1,7 +1,7 @@
 import type { Project } from "@/types/project";
 import imageinventoty from "@/assets/inventory.png";
-import imageavenuprofesores from "@/assets/avenuprofesores.png";
 import imageavenucrm from "@/assets/avenucrm.png";
+import imagehotelemaus from "@/assets/hotelEmaus.jpg";
 
 export const projects: Project[] = [
   {
@@ -24,25 +24,6 @@ export const projects: Project[] = [
     createdAt: "2021-05-02",
   },
   {
-    id: "profesoresavenu",
-    title: "Profesores Avenu",
-    description:
-      "Portal where teachers register to take courses and apply for said courses. Here you can manage your profile and all your information as well as your documents.",
-    shortDescription:
-      "Portal for the administration of teachers.",
-    imageSrc: imageavenuprofesores.src as unknown as string,
-    technologies: [
-      { name: ".NET CORE", color: "#000000" },
-      { name: "Api .NET", color: "#61DAFB" },
-      { name: "SQL SERVER", color: "#336791" },
-      { name: "CSS", color: "#06B6D4" },
-      { name: "Jquery", color: "#000000" },
-    ],
-    liveLink: "https://es.profesoresavenu.com/",
-    codeLink: "#",
-    createdAt: "2024-09-15",
-  },
-  {
     id: "Inventory-app",
     title: "Inventory-app",
     description:
@@ -61,6 +42,25 @@ export const projects: Project[] = [
     status: "Completed",
     featured: true,
     createdAt: "2025-05-20",
+  },
+    {
+    id: "HotelEmaus",
+    title: "Hotel Emaus",
+    description:
+      "Website promoting the rooms at this hotel in downtown Salta. You can contact us via WhatsApp and reserve your desired room.",
+    shortDescription:
+      "Web system that allows you to contact Hotel Emaus to reserve a room",
+    imageSrc: imagehotelemaus.src as unknown as string,
+    technologies: [
+      { name: "Next.JS", color: "#336791" },
+      { name: "React", color: "#61DAFB" },
+      { name: "Tailwind CSS", color: "#06B6D4" },
+      { name: "Vercel", color: "#000000" },
+    ],
+    liveLink: "https://hotel-emaus-site.vercel.app/",
+    codeLink: "https://github.com/christiansanchezdt1/hotel-emaus-site",
+    status: "Completed",
+    createdAt: "2025-05-02",
   },
 ];
 
