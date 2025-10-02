@@ -5,7 +5,6 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import { BackToTop } from "@/components/back-to-top";
-import { NewsletterForm } from "@/components/newsletter-form";
 import { contactInfo, footerSections } from "@/data/contact";
 import type { FooterProps } from "@/types/footer";
 import { Mail, Phone } from "lucide-react";
@@ -111,7 +110,6 @@ export default function Footer({ className = "" }: FooterProps) {
 
               {/* Newsletter form */}
               <div className="pt-4">
-                <NewsletterForm />
               </div>
             </div>
           </div>
