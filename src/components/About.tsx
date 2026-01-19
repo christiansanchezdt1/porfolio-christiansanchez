@@ -72,7 +72,7 @@ export default function AboutMe({
 
               <Button variant="outline" size="icon" asChild>
                 <a
-                  href="https://www.linkedin.com/in/elvis-pino-b358b2127/"
+                  href="https://www.linkedin.com/in/christian-daniel-s%C3%A1nchez-tineo-471586112/"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="LinkedIn Profile"
@@ -82,7 +82,7 @@ export default function AboutMe({
               </Button>
 
               <Button variant="outline" size="icon" asChild>
-                <a href="mailto:elvisreyxd@gmail.com" aria-label="Email Me">
+                <a href="mailto:christiandt1@gmail.com" aria-label="Email Me">
                   <Mail className="h-5 w-5" />
                 </a>
               </Button>
