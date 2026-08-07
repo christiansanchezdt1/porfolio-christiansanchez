@@ -2,13 +2,51 @@ import type { WorkExperience } from "@/types/experience";
 import { v4 as uuidv4 } from "uuid";
 
 export const experiences: WorkExperience[] = [
-    {
+  {
     id: uuidv4(),
     title: "Full-Stack Developer",
-    company: "SWS S.A.S.",
+    company: "Vensure",
     location: "Remote",
-    period: "Jun 2025",
+    period: "Apr 2026 - Present",
+    startDate: "2026-04-01",
+    current: true,
+    responsibilities: [
+      {
+        id: uuidv4(),
+        text: "Develop and maintain web applications using Node.js and Angular.",
+      },
+      {
+        id: uuidv4(),
+        text: "Containerize and deploy services with Docker on Microsoft Azure.",
+      },
+      {
+        id: uuidv4(),
+        text: "Design and manage relational databases in SQL Server.",
+      },
+      {
+        id: uuidv4(),
+        text: "Support the UI design workflow in Figma and use AI tools (Claude, ChatGPT) to speed up development.",
+      },
+    ],
+    technologies: [
+      { name: "Node.js", color: "#339933" },
+      { name: "Angular", color: "#DD0031" },
+      { name: "Docker", color: "#2496ED" },
+      { name: "Azure", color: "#0089D6" },
+      { name: "SQL Server", color: "#4479A1" },
+      { name: "Figma", color: "#F24E1E" },
+      { name: "Claude", color: "#DA7757" },
+      { name: "ChatGPT", color: "#10A37F" },
+    ],
+  },
+  {
+    id: uuidv4(),
+    title: "Full-Stack .NET Developer",
+    company: "System Water Service",
+    location: "Remote",
+    period: "Jun 2025 - Jul 2026",
     startDate: "2025-06-16",
+    endDate: "2026-07-31",
     responsibilities: [
       {
         id: uuidv4(),
@@ -20,7 +58,7 @@ export const experiences: WorkExperience[] = [
       },
       {
         id: uuidv4(),
-        text: "Entity framework model for connecting to the database, Database in entity framework using linq.",
+        text: "Entity Framework model for connecting to the database, using LINQ.",
       },
       {
         id: uuidv4(),
@@ -28,7 +66,7 @@ export const experiences: WorkExperience[] = [
       },
       {
         id: uuidv4(),
-        text: "For the development of the mobile app in React with mongoDb.",
+        text: "For the development of the mobile app in React with MongoDB.",
       },
       {
         id: uuidv4(),
@@ -36,20 +74,20 @@ export const experiences: WorkExperience[] = [
       },
     ],
     technologies: [
-      { name: ".NET CORE", color: "#61DAFB" },
-      { name: "API .net", color: "#000000" },
-      { name: "Angular", color: "#e01010ff" },
+      { name: ".NET Core", color: "#61DAFB" },
+      { name: "API .NET", color: "#000000" },
+      { name: "Angular", color: "#DD0031" },
       { name: "React", color: "#06B6D4" },
-      { name: "AWS", color: "#339933" },
-      { name: "SQL", color: "#cc4f15ff" },
-      { name: "MongoBd", color: "#cc4f15ff" },
-      { name: "Git", color: "#e9f813ff" },
+      { name: "AWS", color: "#FF9900" },
+      { name: "SQL Server", color: "#4479A1" },
+      { name: "MongoDB", color: "#47A248" },
+      { name: "Git", color: "#F05032" },
     ],
   },
   {
     id: uuidv4(),
-    title: "Full-Stack Developer",
-    company: "Start University",
+    title: "Full-Stack .NET Developer",
+    company: "Startup",
     location: "Remote",
     period: "Mar 2021 - Feb 2025",
     startDate: "2021-03-01",
@@ -65,7 +103,7 @@ export const experiences: WorkExperience[] = [
       },
       {
         id: uuidv4(),
-        text: "Database in entity framework using linq.",
+        text: "Database access with Entity Framework using LINQ.",
       },
       {
         id: uuidv4(),
@@ -81,21 +119,21 @@ export const experiences: WorkExperience[] = [
       },
     ],
     technologies: [
-      { name: ".NET CORE", color: "#61DAFB" },
-      { name: "API .net", color: "#000000" },
-      { name: "Jquery", color: "#3178C6" },
+      { name: ".NET Core", color: "#61DAFB" },
+      { name: "API .NET", color: "#000000" },
+      { name: "jQuery", color: "#3178C6" },
       { name: "Scrum", color: "#06B6D4" },
       { name: "AWS", color: "#339933" },
-      { name: "SQL", color: "#3ECF8E" },
+      { name: "SQL Server", color: "#3ECF8E" },
       { name: "Git", color: "#F05032" },
     ],
   },
   {
     id: uuidv4(),
-    title: "Full-Stack Developer",
+    title: "Full-Stack .NET Developer",
     company: "Dicsys",
     location: "On-site",
-    period: "Febr 2020 - March 2021",
+    period: "Feb 2020 - Mar 2021",
     startDate: "2020-02-01",
     endDate: "2021-02-28",
     responsibilities: [
@@ -132,10 +170,10 @@ export const experiences: WorkExperience[] = [
   },
   {
     id: uuidv4(),
-    title: "Programer C#",
+    title: "Programmer C#",
     company: "ITDRIVER",
     location: "On-site",
-    period: "May 2017 - Dic 2017",
+    period: "May 2017 - Dec 2017",
     startDate: "2017-05-01",
     endDate: "2017-12-31",
     responsibilities: [
@@ -145,7 +183,7 @@ export const experiences: WorkExperience[] = [
       },
       {
         id: uuidv4(),
-        text: "Integración con servicio web en API whit PHP y base de datos MySQL.",
+        text: "Integrated a web service via API with PHP and a MySQL database.",
       },
       {
         id: uuidv4(),
@@ -162,7 +200,7 @@ export const experiences: WorkExperience[] = [
   },
   {
     id: uuidv4(),
-    title: "Programador/Tecnico",
+    title: "Developer / IT Technician",
     company: "Hosting Margarita",
     location: "On-site",
     period: "Jan 2012 - Nov 2014",
@@ -184,7 +222,7 @@ export const experiences: WorkExperience[] = [
     ],
     technologies: [
       { name: ".NET", color: "#61DAFB" },
-      { name: "SQL SERVER", color: "#339933" },
+      { name: "SQL Server", color: "#339933" },
       { name: "PHP", color: "#0078D7" },
       { name: "MySQL", color: "#FF9800" },
       { name: "jQuery", color: "#4CAF50" },

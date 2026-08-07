@@ -90,7 +90,9 @@ export function AnimatedBackground() {
     };
 
     const getRandomColor = () => {
-      const colors = ["#4361ee", "#3a0ca3", "#4895ef", "#4cc9f0", "#560bad"];
+      const darkColors = ["#4361ee", "#3a0ca3", "#4895ef", "#4cc9f0", "#560bad"];
+      const lightColors = ["#3b82f6", "#2563eb", "#60a5fa", "#38bdf8", "#818cf8"];
+      const colors = isDarkMode.current ? darkColors : lightColors;
       return colors[Math.floor(Math.random() * colors.length)];
     };
 
@@ -139,9 +141,9 @@ export function AnimatedBackground() {
         gradient.addColorStop(0.5, "rgba(20, 20, 40, 0.1)");
         gradient.addColorStop(1, "rgba(10, 10, 30, 0.2)");
       } else {
-        gradient.addColorStop(0, "rgba(240, 240, 255, 0.2)");
-        gradient.addColorStop(0.5, "rgba(230, 240, 255, 0.1)");
-        gradient.addColorStop(1, "rgba(240, 240, 255, 0.2)");
+        gradient.addColorStop(0, "rgba(219, 234, 254, 0.55)");
+        gradient.addColorStop(0.5, "rgba(239, 246, 255, 0.35)");
+        gradient.addColorStop(1, "rgba(255, 255, 255, 0.2)");
       }
 
       ctx.fillStyle = gradient;

@@ -2,6 +2,7 @@ import type { LucideIcon } from "lucide-react";
 
 export type EducationType =
   | "Degree"
+  | "Diploma"
   | "Certificate"
   | "Course"
   | "Specialization"

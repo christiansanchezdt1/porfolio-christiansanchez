@@ -6,24 +6,24 @@ export const skills: Skill[] = [
   { name: "React", level: "Intermediate", category: "Frontend", color: "#0ba506ff" },
   { name: "TypeScript", level: "Intermediate", category: "Frontend",color: "#3178C6"},
   { name: "JavaScript", level: "Expert", category: "Frontend",color: "#F7DF1E",},
-  { name: "Jquery", level: "Expert", category: "Frontend",color: "#764ABC",},
+  { name: "jQuery", level: "Expert", category: "Frontend",color: "#764ABC",},
   { name: "HTML", level: "Expert", category: "Frontend", color: "#3110ebff" },
   { name: "CSS", level: "Expert", category: "Frontend", color: "#1572B6" },
   { name: "Razor", level: "Intermediate", category: "Frontend", color: "#1572B6" },
-  { name: "BLazor", level: "Expert", category: "Frontend", color: "#1572B6" },
+  { name: "Blazor", level: "Expert", category: "Frontend", color: "#1572B6" },
   { name: "Vue", level: "Expert", category: "Frontend", color: "#4FC08D" },
   { name: "Next.js", level: "Intermediate", category: "Frontend", color: "#000000" },
 
   // Backend
-  { name: ".Net", level: "Expert", category: "Backend", color: "#764ABC" },
-  { name: ".Net core", level: "Expert", category: "Backend", color: "#F7DF1E" },
+  { name: ".NET", level: "Expert", category: "Backend", color: "#764ABC" },
+  { name: ".NET Core", level: "Expert", category: "Backend", color: "#F7DF1E" },
   { name: "Api Rest", level: "Advanced", category: "Backend", color: "#764ABC" },
   { name: "Laravel", level: "Advanced", category: "Backend", color: "#339933" },
   { name: "Node.js", level: "Intermediate", category: "Backend", color: "#4FC08D" },
 
   // Database
   { name: "SQL", level: "Expert", category: "Database", color: "#4479A1" },
-  { name: "MYSQL", level: "Expert", category: "Database", color: "#4479A1" },
+  { name: "MySQL", level: "Expert", category: "Database", color: "#4479A1" },
   { name: "Firebird", level: "Expert", category: "Database", color: "#4479A1" },
   {
     name: "MongoDB",
@@ -46,9 +46,18 @@ export const skills: Skill[] = [
     category: "DevOps",
     color: "#2496ED",
   },
+  {
+    name: "Azure",
+    level: "Intermediate",
+    category: "DevOps",
+    color: "#0089D6",
+  },
 
   // Tools
   { name: "Git", level: "Expert", category: "Tools", color: "#F05032" },
+  { name: "Figma", level: "Intermediate", category: "Tools", color: "#F24E1E" },
+  { name: "Claude", level: "Advanced", category: "Tools", color: "#DA7757" },
+  { name: "ChatGPT", level: "Advanced", category: "Tools", color: "#10A37F" },
 ];
 
 export const skillCategories: { [key: string]: string } = {

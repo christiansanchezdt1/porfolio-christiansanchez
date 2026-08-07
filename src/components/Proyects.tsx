@@ -59,7 +59,7 @@ export default function Projects({
   return (
     <section
       id={id}
-      className={`w-full py-2 md:py-2 lg:py-2 bg-gradient-to-br from-background via-muted/50 to-background ${className}`}
+      className={`w-full py-12 md:py-16 lg:py-20 bg-gradient-to-br from-background via-muted/50 to-background ${className}`}
     >
       <div className="container px-4 md:px-6">
         <motion.div

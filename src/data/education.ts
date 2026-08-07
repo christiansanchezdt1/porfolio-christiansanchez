@@ -6,13 +6,13 @@ import type { Education } from "@/types/education";
 
 export const educationItems: Education[] = [
   {
-    id: "computer-science-bachelor",
-    title: "Bachelor of Computer Science",
+    id: "high-school-diploma",
+    title: "High School Diploma",
     institution: "Liceo Nueva Esparta",
     location: "Venezuela",
     description:
-      "Graduated with a degree in Computer Science, focusing on programming fundamentals, algorithms, and data structures.",
-    type: "Degree",
+      "Completed secondary education with a focus on programming fundamentals, algorithms, and data structures.",
+    type: "Diploma",
     icon: School,
     startDate: "2002-09-01",
     endDate: "2005-07-15",

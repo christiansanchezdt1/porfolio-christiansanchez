@@ -29,7 +29,7 @@ export default function WorkExperience({
   return (
     <section
       id={id}
-      className={`w-full py-4 md:py-4 lg:py-4 bg-gradient-to-b from-background to-muted/30 ${className}`}
+      className={`w-full py-12 md:py-16 lg:py-20 bg-gradient-to-b from-background to-muted/30 ${className}`}
     >
       <div className="container px-4 md:px-6">
         <motion.div

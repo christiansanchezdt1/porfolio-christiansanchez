@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Christian Sánchez | Full-Stack Developer",
   description:
-    "Portfolio of Christian Sánchez, a Full-Stack Developer specializing in .net Javascript and React, Next.js and Node.js.",
+    "Portfolio of Christian Sánchez, a Full-Stack Developer specializing in .NET, JavaScript, React, Next.js and Node.js.",
   keywords: [
     "Christian Sánchez",
     "Full-Stack Developer",
@@ -24,17 +24,17 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "#",
+    url: "https://porfolio-christiansanchez.vercel.app/",
     title: "Christian Sánchez | Full-Stack Developer",
     description:
-      "Portfolio of Christian Sánchez, a Full-Stack Developer specializing in .net Javascript and React, Next.js and Node.js.",
+      "Portfolio of Christian Sánchez, a Full-Stack Developer specializing in .NET, JavaScript, React, Next.js and Node.js.",
     siteName: "Christian Sánchez Portfolio",
   },
   twitter: {
     card: "summary_large_image",
     title: "Christian Sánchez | Full-Stack Developer",
     description:
-      "Portfolio of Christian Sánchez, a Full-Stack Developer specializing in .net Javascript and React, Next.js and Node.js.",
+      "Portfolio of Christian Sánchez, a Full-Stack Developer specializing in .NET, JavaScript, React, Next.js and Node.js.",
     creator: "@christiandt1",
   },
   robots: {
@@ -53,7 +53,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <ThemeProvider
           attribute="class"
-          defaultTheme="system"
+          defaultTheme="light"
           enableSystem
           disableTransitionOnChange
         >
