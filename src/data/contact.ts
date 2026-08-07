@@ -68,7 +68,6 @@ export const footerSections: FooterSection[] = [
     title: "Resources",
     links: [
       { id: "resume", text: "Resume", href: "/resume.pdf", isExternal: true },
-      { id: "blog", text: "Blog", href: "/blog" },
       { id: "portfolio", text: "Portfolio", href: "#projects" },
     ],
   },

@@ -35,7 +35,7 @@ export default function AboutMe({
   return (
     <section
       id={id}
-      className={`w-full py-2 md:py-2 lg:py-2 bg-gradient-to-br from-background via-muted/50 to-background ${className}`}
+      className={`w-full py-12 md:py-16 lg:py-20 bg-gradient-to-br from-background via-muted/50 to-background ${className}`}
     >
       <div className="container px-4 md:px-6">
         <motion.div
@@ -113,13 +113,15 @@ export default function AboutMe({
               <CardContent className="p-6">
                 <h2 className="text-2xl font-semibold mb-4">About me</h2>
                 <p className="text-muted-foreground leading-relaxed">
-                  I&apos;m a passionate full-stack Full-stack developer 
-                  with over 10 years of experience in web and desktop programming, 
-                  specializing in .NET technologies (C#, ASP.NET Core, MVC), Entity Framework, 
-                  and SQL Server databases. He has extensive experience in systems integration, 
-                  REST API development, agile methodologies (SCRUM), and version control with Git. 
-                  He has experience in both corporate environments and freelance projects, 
-                  working with modern frameworks such as Laravel, Vue.js, Node, React, NextJs, and AngularJS.
+                  I&apos;m a passionate Full-Stack Developer
+                  with over 10 years of experience in web and desktop programming,
+                  specializing in .NET technologies (C#, ASP.NET Core, MVC), Entity Framework,
+                  and SQL Server databases. I have extensive experience in systems integration,
+                  REST API development, agile methodologies (SCRUM), and version control with Git.
+                  I have experience in both corporate environments and freelance projects,
+                  working with modern frameworks such as Laravel, Vue.js, Node.js, React, Next.js, and Angular,
+                  and I use containerization (Docker), cloud platforms (Azure), and AI-assisted
+                  workflows (Claude, ChatGPT) to speed up development.
                 </p>
                 <p className="text-muted-foreground leading-relaxed mt-4">
                   When I&apos;m not coding, you can find me exploring new hiking

@@ -16,6 +16,7 @@ import { ThemeToggle } from "@/components/theme-toggle";
 import { useActiveSection } from "@/hooks/use-active-section";
 import type { NavItem, HeaderProps } from "@/types/navigation";
 import { Menu, Code, Github, Linkedin, ExternalLink } from "lucide-react";
+import avatarImage from "@/assets/me3.jpg";
 
 export default function Header({ className = "" }: HeaderProps) {
   const [isOpen, setIsOpen] = useState(false);
@@ -71,7 +72,7 @@ export default function Header({ className = "" }: HeaderProps) {
           <Code className="w-6 h-6 text-primary" />
           <Avatar className="h-10 w-10 border-2 border-primary/20 transition-all duration-300 hover:border-primary">
             <AvatarImage
-              src="/assets/me3.jpg"
+              src={avatarImage.src}
               alt="Christian Sánchez"
               className="object-cover"
             />

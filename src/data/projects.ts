@@ -17,7 +17,7 @@ export const projects: Project[] = [
       { name: "Api .NET", color: "#61DAFB" },
       { name: "SQL SERVER", color: "#336791" },
       { name: "CSS", color: "#06B6D4" },
-      { name: "Jquery", color: "#000000" },
+      { name: "jQuery", color: "#000000" },
     ],
     liveLink: "https://dev-avenu.startuniversity.dev/",
     codeLink: "#",

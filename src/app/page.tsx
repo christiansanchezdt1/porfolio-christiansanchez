@@ -24,11 +24,11 @@ function HeroSection() {
         className="max-w-3xl mx-auto"
       >
         <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-primary to-primary/60">
-          Welcome to My Portfolio
+          Hi, I&apos;m Christian Sánchez
         </h1>
         <p className="text-xl md:text-2xl text-muted-foreground mb-8">
-          I&apos;m Christian Sánchez, a Full-Stack Developer passionate about creating
-          modern web experiences with cutting-edge technologies.
+          A Full-Stack Developer with 10+ years of experience building web
+          applications with .NET, React and Next.js.
         </p>
         <motion.div
           initial={{ opacity: 0 }}
@@ -122,21 +122,10 @@ export default function Home() {
 
           {/* Content Sections */}
           <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <section id="about" className="scroll-mt-20 py-4 md:py-4">
-              <AboutMe />
-            </section>
-
-            <section id="experience" className="scroll-mt-20 py-4 md:py-4">
-              <WorkExperience />
-            </section>
-
-            <section id="projects" className="scroll-mt-20 py-4 md:py-4">
-              <Projects />
-            </section>
-
-            <section id="Studies" className="scroll-mt-20 py-4 md:py-4">
-              <StudiesAndCertificates />
-            </section>
+            <AboutMe className="scroll-mt-20" />
+            <WorkExperience className="scroll-mt-20" />
+            <Projects className="scroll-mt-20" />
+            <StudiesAndCertificates className="scroll-mt-20" />
           </div>
         </main>
 

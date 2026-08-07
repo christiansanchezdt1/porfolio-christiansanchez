@@ -16,7 +16,8 @@ export default function Footer({ className = "" }: FooterProps) {
     <>
       <BackToTop />
       <motion.footer
-        className={`bg-muted py-12 text-muted-foreground ${className}`}
+        id="contact"
+        className={`scroll-mt-20 bg-muted py-12 text-muted-foreground ${className}`}
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
@@ -107,10 +108,6 @@ export default function Footer({ className = "" }: FooterProps) {
                     );
                   })}
               </ul>
-
-              {/* Newsletter form */}
-              <div className="pt-4">
-              </div>
             </div>
           </div>
 
@@ -120,20 +117,6 @@ export default function Footer({ className = "" }: FooterProps) {
             <p className="text-sm text-center md:text-left">
               &copy; {currentYear} Christian Sánchez. All rights reserved.
             </p>
-            <div className="flex items-center gap-4 text-sm">
-              <Link
-                href="/privacy"
-                className="hover:text-primary transition-colors duration-200"
-              >
-                Privacy Policy
-              </Link>
-              <Link
-                href="/terms"
-                className="hover:text-primary transition-colors duration-200"
-              >
-                Terms of Service
-              </Link>
-            </div>
           </div>
         </div>
       </motion.footer>
