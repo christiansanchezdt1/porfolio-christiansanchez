@@ -2,6 +2,7 @@ import type { Project } from "@/types/project";
 import imageinventoty from "@/assets/inventory.png";
 import imageavenucrm from "@/assets/avenucrm.png";
 import imagehotelemaus from "@/assets/hotelEmaus.jpg";
+import imageinmocontrol from "@/assets/inmocontrol.png";
 
 export const projects: Project[] = [
   {
@@ -61,6 +62,24 @@ export const projects: Project[] = [
     codeLink: "https://github.com/christiansanchezdt1/hotel-emaus-site",
     status: "Completed",
     createdAt: "2025-05-02",
+  },
+  {
+    id: "InmoControl",
+    title: "InmoControl",
+    description:
+      "A dashboard application for managing real estate rental contracts end to end: properties, tenants, and contracts with automatically generated rent-increase schedules based on a percentage and frequency set per contract. It also handles monthly receipt generation and payment tracking, and gives property managers a live view of upcoming rent increases, flagging which ones fall in the current month or need tenant notice within the next two months.",
+    shortDescription:
+      "A property rental management dashboard covering properties, tenants, contracts, automatic rent-increase schedules and monthly receipts.",
+    imageSrc: imageinmocontrol.src as unknown as string,
+    technologies: [
+      { name: "Next.JS", color: "#336791" },
+      { name: "TypeScript", color: "#3178C6" },
+      { name: "SQL Server", color: "#4479A1" },
+      { name: "Tailwind CSS", color: "#06B6D4" },
+    ],
+    codeLink: "#",
+    status: "Completed",
+    createdAt: "2026-05-29",
   },
 ];
 
